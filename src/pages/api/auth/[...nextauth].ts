@@ -16,6 +16,7 @@ export default NextAuth({
   ],
   callbacks: {
     async signIn(user, acount, profile) {
+
       const { email } = user
 
       try {
@@ -30,11 +31,12 @@ export default NextAuth({
               )
             ),
             q.Create(
-              q.Collection('user'),
+              q.Collection('users'),
               { data: { email } }
             ),
             q.Get(
               q.Match(
+
                 q.Index('user_by_email'),
                 q.Casefold(user.email)
               )
@@ -42,7 +44,7 @@ export default NextAuth({
           )
         )
         return true
-      } catch {
+      } catch (err) {
         return false
       }
     },
