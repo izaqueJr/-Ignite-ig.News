@@ -5,6 +5,7 @@ Projeto em andamento!!!
 
 Status =>
 Finalizando a integração com o stripe;
-Adcionadno recursos ao faunaDb
+Back-end no front-end;
+Adcionadno recursos ao faunaDb;
 
 yarn dev para rodar :) 
