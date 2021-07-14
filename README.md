@@ -7,5 +7,6 @@ Status =>
 * Finalizando a integração com o stripe;
 * Back-end no front-end;
 * Adcionadno recursos ao faunaDb;
-
-yarn dev para rodar :) 
+---
+* yarn para instalar os recursos;
+* yarn dev para rodar a aplicação :) 
