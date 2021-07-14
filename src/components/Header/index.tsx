@@ -1,5 +1,5 @@
-import { SignInButton } from '../SignInButton';
-import styles from './styles.module.scss';
+import { SignInButton } from "../SigInButton"
+import styles from "./style.module.scss"
 
 export function Header() {
   return (
@@ -11,7 +11,7 @@ export function Header() {
           <a>Posts</a>
         </nav>
 
-        <SignInButton />
+        < SignInButton />
       </div>
     </header>
   )
