@@ -4,8 +4,8 @@ Site de noticias criado com Next.JS, Stripe para pagamentos, banco de dados Faun
 Projeto em andamento!!!
 
 Status =>
-Finalizando a integração com o stripe;
-Back-end no front-end;
-Adcionadno recursos ao faunaDb;
+* Finalizando a integração com o stripe;
+* Back-end no front-end;
+* Adcionadno recursos ao faunaDb;
 
 yarn dev para rodar :) 
